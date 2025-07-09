@@ -28,12 +28,6 @@ stages:
             inputs:
               version: 9.x
 
-          - task: Cache@2
-            displayName: Cache
-            inputs:
-              key: 'nuget | "$(Agent.OS)" | $(Build.SourcesDirectory)/**/packages.lock.json'
-              path: '$(NugetPackages)'
-
           - task: DotNetCoreCLI@2
             displayName: 'Restore NuGet Packages'
             inputs:
