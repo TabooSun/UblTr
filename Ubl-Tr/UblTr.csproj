@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.3;netstandard2.1;netstandard2.0;net45;net46;netcoreapp1.0;netcoreapp1.1;net5.0;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
-    <RootNamespace>UblTr</RootNamespace>
+    <RootNamespace>Estrelio.UblTr</RootNamespace>
     <Authors>Hakan Kutluay</Authors>
     <Description>Ubl-Tr v1.2.1 (UBL 2.1) .Net Classes</Description>
     <RepositoryUrl>https://github.com/hkutluay/UblTr</RepositoryUrl>
