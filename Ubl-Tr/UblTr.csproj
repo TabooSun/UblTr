@@ -7,12 +7,12 @@
     <Description>Ubl-Tr v1.2.1 (UBL 2.1) .Net Classes</Description>
     <RepositoryUrl>https://github.com/hkutluay/UblTr</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
-    <PackageTags>ubltr ubl-tr e-invoice ubl ubl-tr-1.2.1 e-fatura fatura efatura e-despatch eirsaliye irsaliye applicationresponse uygulamayaniti creditnote receiptadvice </PackageTags>
+    <PackageTags>ubltr ubl-tr e-invoice ubl ubl-tr-1.2.3 e-fatura fatura efatura e-despatch eirsaliye irsaliye applicationresponse uygulamayaniti creditnote receiptadvice </PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.3.2</Version>
+    <Version>1.3.3</Version>
     <PackageIcon>icon.png</PackageIcon>
-    <AssemblyVersion>1.3.2.0</AssemblyVersion>
-    <FileVersion>1.3.2.0</FileVersion>
+    <AssemblyVersion>1.3.3.0</AssemblyVersion>
+    <FileVersion>1.3.3.0</FileVersion>
     <PackageId>Estrelio.UblTr</PackageId>
   </PropertyGroup> 
   <ItemGroup>
