@@ -36,6 +36,8 @@ namespace UblTr.Common
 
         private InvoiceLineType[] subInvoiceLineField;
 
+        private ItemPriceExtensionType itemPriceExtensionField;
+
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
         public IDType ID
@@ -226,6 +228,19 @@ namespace UblTr.Common
             set
             {
                 this.subInvoiceLineField = value;
+            }
+        }
+
+        /// <remarks/>
+        public ItemPriceExtensionType ItemPriceExtension
+        {
+            get
+            {
+                return this.itemPriceExtensionField;
+            }
+            set
+            {
+                this.itemPriceExtensionField = value;
             }
         }
     }

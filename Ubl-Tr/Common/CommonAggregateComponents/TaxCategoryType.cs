@@ -7,6 +7,7 @@ namespace UblTr.Common
     [System.Xml.Serialization.XmlRootAttribute("ApplicableTaxCategory", Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2", IsNullable = false)]
     public partial class TaxCategoryType
     {
+        private IDType idField;
 
         private NameType1 nameField;
 
@@ -15,6 +16,20 @@ namespace UblTr.Common
         private TaxExemptionReasonType taxExemptionReasonField;
 
         private TaxSchemeType taxSchemeField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
+        public IDType ID
+        {
+            get
+            {
+                return this.idField;
+            }
+            set
+            {
+                this.idField = value;
+            }
+        }
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Namespace = "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2")]
